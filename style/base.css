@@ -1,0 +1,31 @@
+.activated-jl-logger-btn{
+    background-color: var(--jp-layout-color2);
+}
+
+.jl-logger-btn .jp-ToolbarButtonComponent-label{
+    font-weight: 640;
+}
+
+.jl-logger-tools input[type="text"]{
+    margin: 0px 4px;
+    background-color: #EFEFEF;
+    border: solid #EFEFEF;
+    border-radius: 4px;
+    width: 80px;
+    height: 24px;
+    box-sizing: border-box;
+}
+.jl-logger-tools .ext-txt{
+    color: #CFCFCF;
+    font-weight: bolder;
+    font-size: 32%;
+    vertical-align: bottom;
+}
+.jl-logger-tools label{
+    margin-left: 4px;
+    font-size: var(--jp-ui-font-size1);
+    vertical-align: middle;
+}
+.jl-logger-tools input[type="checkbox"]{
+    vertical-align: middle;
+}
