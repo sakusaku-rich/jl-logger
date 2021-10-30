@@ -26,7 +26,6 @@ def setup_handlers(web_app, url_path):
     host_pattern = ".*$"
     base_url = web_app.settings["base_url"]
     route_pattern = url_path_join(base_url, url_path, 'LogOutputContent')
-    print(route_pattern)
     handlers = [(route_pattern, LogAllOutputCellsHandler)]
     web_app.add_handlers(host_pattern, handlers)
 
