@@ -88,6 +88,9 @@ export class ButtonExtension
       elem.parentElement?.insertBefore(parentSpanElem, elem.nextSibling);
     };
 
+    /**
+     * switch activation of logging
+     */
     const toggleActivation = () => {
       const e = window.event;
       const targetNotebookId = document.getElementsByClassName('jp-mod-current')[0].getAttribute('data-id') as string;
