@@ -89,7 +89,7 @@ export class ButtonExtension
     };
 
     /**
-     * switch activation of logging
+     * switch activation of logger
      */
     const toggleActivation = () => {
       const e = window.event;
@@ -116,7 +116,7 @@ export class ButtonExtension
 
     const button = new ToolbarButton({
       className: 'jl-logger-btn',
-      label: 'Logging',
+      label: 'Logger',
       onClick: toggleActivation,
       tooltip: 'Activate jl-logger',
     });
