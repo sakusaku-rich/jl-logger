@@ -29,7 +29,7 @@ pip uninstall jl-logger
 
 ## Usage
 
-1. Click Logging button in  toolbar.
+1. Click Logger button in  toolbar.
     <div>
         <img src="demo/jl-logger1.png" />
     </div>
